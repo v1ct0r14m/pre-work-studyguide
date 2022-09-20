@@ -29,6 +29,10 @@ ul {
     font-size: 20px;
 }
 
+ol {
+    padding-left: 45px;
+}
+
 p {
     text-align: center;
     font-size: 30px;
@@ -39,4 +43,10 @@ p {
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
+}
+
+#pic {
+    display: inline-block;
+    height: 90px;
+    width: 162px;
 }
