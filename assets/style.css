@@ -47,6 +47,12 @@ p {
 
 #pic {
     display: inline-block;
-    height: 90px;
-    width: 162px;
+    height: auto;
+    width: 70%;
+}
+
+#pic2 {
+    display: inline-block;
+    height: auto;
+    width: 80%;
 }
