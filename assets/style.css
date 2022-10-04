@@ -65,3 +65,10 @@ p {
     height: auto;
     width: 80%
 }
+
+main div p {
+    color: #c6fbff;
+    font-style: italic;
+    background-color: blue;
+    padding: 20px
+}
