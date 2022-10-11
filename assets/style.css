@@ -84,3 +84,14 @@ main div p {
     background-color: blue;
     padding: 20px
 }
+
+.card ul li {
+    line-height: 1.5;
+}
+
+.card ol li {
+    line-height: 1.3;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
