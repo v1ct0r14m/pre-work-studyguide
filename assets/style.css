@@ -72,6 +72,12 @@ p {
     width: 80%
 }
 
+#pic5 {
+    display: inline-block;
+    height: auto;
+    width: 70%;
+}
+
 main div p {
     color: #c6fbff;
     font-style: italic;
