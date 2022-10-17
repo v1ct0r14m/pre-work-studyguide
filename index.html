@@ -65,6 +65,17 @@
                   </br>applies the rule only when the page is printed or displayed in print preview.
                 </li>
               </ol>
+          <li>box-shadows & adding transparency :</li>
+              <img src="./assets/200-box-shadow.png" id="pic6">
+            <ul>
+              <li>there are a few value possibilities for shadows, but the most common usage is to define the horizontal offset (5px in the example), vertical offset (10px), radius of the shadow blur (15px), and finally the color. The offsets start in the top-left corner of the shadowed element, and these numbers can be negative.</li>
+              <li>in order to add transparency, you have to utilize RGB values. RGB is are the primary colors for light, and in css, we can define how much the three colors blend together on a scale of 0-255 (all 0's = black, all 255's = white)</li>
+                <p>* .some-class { </br>
+                text-shadow: 5px 10px 15px black; </br>
+                box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25); </br>
+                }
+                </p>
+            </ul>
         </ul>
       </section>
    
@@ -96,6 +107,48 @@
           <ul>
             <li>for loop application will look something like this: for(var x = 0; x < shapes.length; x++), with a code block in curly brackets after</li>
           </ul>
+          <li>
+            a <strong>function</strong> is a predefined action that can be called or invoked in a code
+          </li>
+          <ul>
+            <li>to run a JavaScript function, parentheses must be included—even if there's nothing between them</li>
+            <li>placing content between the parentheses is called <strong>passing an argument into a function</strong></li>
+            <li>a semicolon ; closes out the function's code
+              </br>- the semicolon tells the browser that this particular line is completed and any code after it is a new piece of code 
+              </br>- each piece of code, separated by semicolons, is known as an expression</li>
+            <li>example of a function syntax (from robot gladiators):</li>
+              <img src="./assets/Screen Shot 2022-10-17 at 01.40.31.png" id="pic7">
+              <ul>
+                <li>functions can be named anything, but best practice is to name them for their functionality; for example, the function() name: fight
+                <li>fight function doesn't need data passed into it the same way that the alert does, but the parentheses are required regardless.</li>
+                <li>curly braces { } wrap the code that belongs to this function 
+                  <br>- the function will run any code within the braces, and it won't run any code outside them 
+                  <br>- the code between these curly braces is called a <strong>code block</strong>
+                </li>
+                <li>a function must be called in order to work; in this case: [ fight(); ] will call out the window alert message</li>
+              </ul>
+            </ul>
+            <li>
+              <strong>objects, methods, and APIs</strong>
+            </li>
+            <ul>
+              <li>
+                [ window ] is a collection of functions and many other properties built natively into the browser
+                <br>- when a program is openned in the browswer, the javascript file's code executes in the context of the [ window ]
+                <br>- that way, the code can always acces the tools and information (called "properties") the [ window ] provides
+              </li>
+              <li>
+                a collection of functionality and data that's accessed through one "name" (for example, window) is an <strong>object</strong>
+                <br>- to access an object's data, the object is named, followed by a period along with the property name or function name
+                <br>- using a period between the object name and property is called <strong>dot notation</strong>
+              </li>
+              <li>
+                when a function belongs to an object, it is called a <stong>method</stong>
+              </li>
+              <li>
+                a functionality built into browsers where properties can be accessed is called a <strong>web application programming interface (API)</strong>
+              </li>
+            </ul>
         </ul>
       </section>
    
