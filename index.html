@@ -94,7 +94,31 @@
         <h2>JavaScript</h2>
         <ul>
           <li>javascript adds interactivity to the app as well as save crucial information between browser visits</li>
-          <li>A variable is a named container that allows us to store data in our code.</li>
+          <!-- <li>a <strong>variable </strong>is a named container that allows us to store data in code</li> -->
+          <li>a <strong>variable</strong> is a named location for a value that gets stored in the browser's memory when a program is run</li>
+          <br>- listing the variable on the left side means it'll store data to that variable
+          <br>- listing the variable on the right side means it'll use the actual value that variable holds at that moment
+            <img src="./assets/img/variable-syntax.png" id="pic8">
+            <ul>
+              <li>variable playerName is declared and <stong>assigned</stong> the value "Tony the Robot"</li>
+              <li><strong>[ var ] keyword</strong>: just like [ function ],[ var ] is a keyword built into the JavaScript language 
+                <br>- whenever it is used, it tells the program to create a new variable and the next word is going to be the name of the variable</li>
+              <li><strong>variable name:</strong> this is the actual name that will store the information assigned to the variable
+                <br>- when the browser reads the line, it will store the name to recall it later in the program</li> 
+              <li>use camelCasing for names with more than one word</li>
+              <li><strong>assignment operator: </strong>the assignment operator (=) is a single equal sign that is used to set the value to a variable name</li>
+              <p>
+                // This is a String data type; it must be wrapped in double quotes (" ") or single quotes (' ').
+                <br><strong>var stringDataType = "This is a string, which is a fancy way to say text";</strong>
+                <br>
+                <br>// This is a Number data type; it can be an integer (whole number) or have decimals (floated numbers).
+                <br><strong>var numberIntegerDataType = 10;</strong>
+                <br><strong>var numberFloatDataType = 10.4;</strong>
+                <br>
+                <br>// This is a Boolean data type, which can only be given a value of true or false.
+                <br><strong>var booleanDataType = true;</strong>
+              </p>
+            </ul>
           <li>Control flow is the order in which a computer executes code in a script.</li>
           <li>(===) is the strict equality operator which checks to see if two values are equal, and returns a Boolean result of 'true' if they are equal and 'false' if they are not equal:</li>
             <img src="./assets/img/1000-comparison-4-studyguide.png" id="pic">
@@ -149,28 +173,6 @@
                 a functionality built into browsers where properties can be accessed is called a <strong>web application programming interface (API)</strong>
               </li>
             </ul>
-            <li>a <strong>variable</strong> is a named location for a value that gets stored in the browser's memory when a program is run</li>
-            <img src="./assets/img/variable-syntax.png" id="pic8">
-            <ul>
-              <li>variable playerName is declared and <stong>assigned</stong> the value "Tony the Robot"</li>
-              <li><strong>[ var ] keyword</strong>: just like [ function ],[ var ] is a keyword built into the JavaScript language 
-                <br>- whenever it is used, it tells the program to create a new variable and the next word is going to be the name of the variable</li>
-              <li><strong>variable name:</strong> this is the actual name that will store the information assigned to the variable
-                <br>- when the browser reads the line, it will store the name to recall it later in the program</li> 
-              <li>use camelCasing for names with more than one word</li>
-              <li><strong>assignment operator: </strong>the assignment operator (=) is a single equal sign that is used to set the value to a variable name</li>
-              <p>
-                // This is a String data type; it must be wrapped in double quotes (" ") or single quotes (' ').
-                <br><strong>var stringDataType = "This is a string, which is a fancy way to say text";</strong>
-
-                <br>// This is a Number data type; it can be an integer (whole number) or have decimals (floated numbers).
-                <br><strong>var numberIntegerDataType = 10;</strong>
-                <br><strong>var numberFloatDataType = 10.4;</strong>
-
-                <br>// This is a Boolean data type, which can only be given a value of true or false.
-                <br><strong>var booleanDataType = true;</strong>
-              </p>
-            </ul>
             <li>
               the crucial tool that allows developers to test code without interrupting the page with an alertis called the <strong>developer console</strong>
               <br>- use the console to write and test simple JavaScript with different features or functionality rather than writing it into files, then saving and refreshing
@@ -185,6 +187,28 @@
                   <br><strong>console.log("Your robot, " + playerName + ", has won!");</li></strong>
               </ul>
             </li>
+            <li><strong>functon declaration: </strong>creating a function using the [ function ] keyword first</li>
+            <p>
+              // create function
+              <br><strong>function fight() {</strong>
+                <br>
+              <br><strong>window.alert("Welcome to Robot Gladiators!");</strong>
+                <br>
+              <br><strong>}</strong>
+                <br>
+              <br>// execute function
+              <br><strong>fight();</strong>
+            </p>
+            <li><strong>function expression: </strong>creating a function by assigning it to a variable</li>
+            <p>
+              // create function
+              <br><strong>var fight = function() {</strong>
+              <br><strong>window.alert("WELCOME TO ROBOT GLADIATORS");</strong>
+              <br><strong>};</strong>
+              <br>
+              <br>// execute function
+              <br><strong>fight();</strong>
+            </p>
           </ul>
         </ul>
       </section>
