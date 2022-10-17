@@ -47,10 +47,19 @@ p {
     box-shadow: 5px 10px #888888;
 }
 
+.card h2 {
+    border-bottom: 2px dotted #000000;
+    padding: 10px 0;
+}
+
 .card p {
     text-align: justify;
     font-size: 18px;
     padding: 10px 0 10px 20px;
+}
+
+.card ul li{
+    padding: 7.5px 0;
 }
 
 #pic {
@@ -96,6 +105,12 @@ p {
     display: inline-block;
     height: auto;
     width: 65%;
+}
+
+#pic8 {
+    display: inline-block;
+    height: auto;
+    width: 69%;
 }
 
 main div p {

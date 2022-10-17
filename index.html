@@ -12,7 +12,7 @@
 
     <header id="top">
       <h1>NOTAS DE LA MOTA</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/img/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
 
@@ -41,16 +41,16 @@
           <li>borders can be transparent or solid color: 2px solid #cc0000=2px wide,solid red border</li>
           <li>padding indicates how much space we want around the content inside an element</li>
           <li>difference between block & inline:</li>
-            <img src="./assets/80-block-inline-display.png" id="pic2">
+            <img src="./assets/img/80-block-inline-display.png" id="pic2">
           <li> here is the difference between static postioning vs. relative to the parent element:</li>
-            <img src="./assets/Screen Shot 2022-10-04 at 00.47.53.png" id="pic3">
+            <img src="./assets/img/Screen Shot 2022-10-04 at 00.47.53.png" id="pic3">
             <li>to position a child element in relation to its parent element, set the [ position: value; ] to absolute </li>
           <li>box-sizing is a property that changes the calculation of both width and height of an element</li>
           <li>[ position: static; ] is the default value and maintains the order of the natural flow of the elements on the page (i.e. the order created in the html) and not affected by the top, bottom, left, and right properties</li>
           <li>[ position: relative; ] uses the top and bottom properties to vertically offset and the left and right properties to hroizontally offset the element from the static position</li>
           <li>[ position: absolute; ] removes the element from the natural flow of the page aelements and uses the top, bottom, left, and right properties to offset relative to the element's parent, or containing, element's margins</li>
           <li>breakdown of media query syntax:</li>
-            <img src="./assets/media query.png" id="pic5">
+            <img src="./assets/img/media query.png" id="pic5">
             <ul>
               <li>three types of media can be applied to the css:</li>
             </ul>
@@ -66,7 +66,7 @@
                 </li>
               </ol>
           <li>box-shadows & adding transparency :</li>
-              <img src="./assets/200-box-shadow.png" id="pic6">
+              <img src="./assets/img/200-box-shadow.png" id="pic6">
             <ul>
               <li>there are a few value possibilities for shadows, but the most common usage is to define the horizontal offset (5px in the example), vertical offset (10px), radius of the shadow blur (15px), and finally the color. The offsets start in the top-left corner of the shadowed element, and these numbers can be negative.</li>
               <li>in order to add transparency, you have to utilize RGB values. RGB is are the primary colors for light, and in css, we can define how much the three colors blend together on a scale of 0-255 (all 0's = black, all 255's = white)</li>
@@ -86,7 +86,7 @@
           <li>git checkout -b branch-name: creates a new branch and switches it</li>
           <li>git checkout main returns you to main branch</li>
           <li>difference between [git fetch] , [git merge] , and [git pull] :</li>
-            <img src="./assets/git fpm.png" id="pic4">
+            <img src="./assets/img/git fpm.png" id="pic4">
         </ul>
       </section>
    
@@ -97,7 +97,7 @@
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
           <li>(===) is the strict equality operator which checks to see if two values are equal, and returns a Boolean result of 'true' if they are equal and 'false' if they are not equal:</li>
-            <img src="./assets/1000-comparison-4-studyguide.png" id="pic">
+            <img src="./assets/img/1000-comparison-4-studyguide.png" id="pic">
           <li>to create a for loop you will need to follow 3 important statements:</li>
             <ol>
               <li>var x = 0; this will be the starting point, declaring a variable and giving it the value of 0 [bc the first index of an array is always 0]</li>
@@ -117,7 +117,7 @@
               </br>- the semicolon tells the browser that this particular line is completed and any code after it is a new piece of code 
               </br>- each piece of code, separated by semicolons, is known as an expression</li>
             <li>example of a function syntax (from robot gladiators):</li>
-              <img src="./assets/Screen Shot 2022-10-17 at 01.40.31.png" id="pic7">
+              <img src="./assets/img/Screen Shot 2022-10-17 at 01.40.31.png" id="pic7">
               <ul>
                 <li>functions can be named anything, but best practice is to name them for their functionality; for example, the function() name: fight
                 <li>fight function doesn't need data passed into it the same way that the alert does, but the parentheses are required regardless.</li>
@@ -143,12 +143,36 @@
                 <br>- using a period between the object name and property is called <strong>dot notation</strong>
               </li>
               <li>
-                when a function belongs to an object, it is called a <stong>method</stong>
+                when a function belongs to an object, it is called a <strong>method</strong>
               </li>
               <li>
                 a functionality built into browsers where properties can be accessed is called a <strong>web application programming interface (API)</strong>
               </li>
             </ul>
+            <li>a <strong>variable</strong> is a named location for a value that gets stored in the browser's memory when a program is run</li>
+            <img src="./assets/img/variable-syntax.png" id="pic8">
+            <ul>
+              <li>variable playerName is declared and <stong>assigned</stong> the value "Tony the Robot"</li>
+              <li><strong>[ var ] keyword</strong>: just like [ function ],[ var ] is a keyword built into the JavaScript language 
+                <br>- whenever it is used, it tells the program to create a new variable and the next word is going to be the name of the variable</li>
+              <li><strong>variable name:</strong> this is the actual name that will store the information assigned to the variable
+                <br>- when the browser reads the line, it will store the name to recall it later in the program</li> 
+              <li>use camelCasing for names with more than one word</li>
+              <li><strong>assignment operator: </strong>the assignment operator (=) is a single equal sign that is used to set the value to a variable name</li>
+              <p>
+                // This is a String data type; it must be wrapped in double quotes (" ") or single quotes (' ').
+                <br><strong>var stringDataType = "This is a string, which is a fancy way to say text";</strong>
+
+                <br>// This is a Number data type; it can be an integer (whole number) or have decimals (floated numbers).
+                <br><strong>var numberIntegerDataType = 10;</strong>
+                <br><strong>var numberFloatDataType = 10.4;</strong>
+
+                <br>// This is a Boolean data type, which can only be given a value of true or false.
+                <br><strong>var booleanDataType = true;</strong>
+              </p>
+            </ul>
+            <li>the crucial tool that allows developers to test code without interrupting the page with an alertis called the <strong>developer console</strong></li>
+          </ul>
         </ul>
       </section>
    
